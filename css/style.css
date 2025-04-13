@@ -48,12 +48,27 @@ nav.linker a.realLink {
   nav.linker ul {
     flex-direction: column; /* Stack vertically */
     align-items: center;
-    gap: 2px;
+    gap: 5px;
     padding: 5px 0;
   }
+
+  /* Add to your existing CSS */
+nav.linker {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hide when scrolling up */
+.hide-nav {
+  transform: translateY(-100%);
+}
+
+/* Show when scrolling down or at top */
+.show-nav {
+  transform: translateY(0);
+}
   
   nav.linker {
-    padding: 2px 0;
+    padding: 5px 0;
     height: auto; /* Allow height to grow with content */
     overflow-y: auto; /* Add scroll if needed (unlikely) */
     max-height: 100vh; /* Prevent taking full screen */
@@ -62,8 +77,8 @@ nav.linker a.realLink {
   nav.linker a.realLink {
     width: 90%; /* Wider buttons for easier tapping */
     text-align: center;
-    padding: 2px 5px;
-    font-size: 12px;
+    padding: 8px 5px;
+    font-size: 14px;
   }
   
   /* Adjust body padding to account for taller nav */
@@ -75,8 +90,22 @@ nav.linker a.realLink {
 /* Additional landscape optimization */
 @media (orientation: landscape) and (max-width: 768px) {
   nav.linker ul {
-    gap: 4px;
+    gap: 8px;
   }
+  /* Add to your existing CSS */
+nav.linker {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hide when scrolling up */
+.hide-nav {
+  transform: translateY(-100%);
+}
+
+/* Show when scrolling down or at top */
+.show-nav {
+  transform: translateY(0);
+}
   
   nav.linker a.realLink {
     font-size: 14px;
@@ -199,7 +228,6 @@ footer.footer a:hover {
   border-top: 2px solid #5A9BD5; /* Light blue accent line */
   padding-bottom: 10px;
 }
-
 
 /* Add to your existing CSS */
 nav.linker {
