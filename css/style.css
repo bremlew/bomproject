@@ -62,8 +62,8 @@ nav.linker a.realLink {
   nav.linker a.realLink {
     width: 90%; /* Wider buttons for easier tapping */
     text-align: center;
-    padding: 8px 5px;
-    font-size: 10px;
+    padding: 2px 5px;
+    font-size: 12px;
   }
   
   /* Adjust body padding to account for taller nav */
