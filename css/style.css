@@ -200,3 +200,18 @@ footer.footer a:hover {
   padding-bottom: 10px;
 }
 
+
+/* Add to your existing CSS */
+nav.linker {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hide when scrolling up */
+.hide-nav {
+  transform: translateY(-100%);
+}
+
+/* Show when scrolling down or at top */
+.show-nav {
+  transform: translateY(0);
+}
