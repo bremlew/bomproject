@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0e8d6; /* light tan background */
+  color: #333; /* dark text for contrast */
+  line-height: 1.6;
+  padding-top: 50px; /* to make space for the fixed nav */
+}
+
+/* Navigation bar */
+nav.linker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #5A9BD5; /* light blue */
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+nav.linker ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav.linker a.realLink {
+  color: #fff; /* white text */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav.linker a.realLink:hover {
+  background-color: #3b7db7; /* darker blue on hover */
+}
+
+/* Main heading */
+.superTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 50px 0 30px;
+  color: #3c6e8f; /* muted blue */
+}
+
+/* Image styling */
+.jesuspic {
+  display: block;
+  width: 100%; /* Set width to 100% */
+  max-width: 800px; /* Limit max width to match text box */
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph styling */
+.bodyText {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 800px; /* Same width as image */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* white background for text */
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  color: #444;
+}
+
+/* Link styling for hover effect */
+a.realLink {
+  transition: color 0.3s ease;
+}
+
+a.realLink:hover {
+  color: #1f3d68; /* deep blue on hover */
+}
+
+
+footer.footer {
+  background-color: #3c6e8f; /* Muted blue background to match the title */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  margin-top: 50px;
+}
+
+footer.footer p {
+  margin: 10px 0;
+}
+
+footer.footer a {
+  color: #fff; /* White text for the links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer.footer a:hover {
+  color: #f0e8d6; /* Light tan color for hover effect */
+}
+
+/* Image styling */
+.jesuspic {
+  display: block;
+  width: 100%; /* Makes image responsive */
+  max-width: 800px; /* Matches your text box width */
+  height: auto; /* Maintains aspect ratio */
+  margin: 20px auto; /* Adds vertical spacing and centers horizontally */
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* For content images that should match text width */
+.content-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Video container styling */
+.video-container {
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.video-container video {
+  width: 100%;
+  display: block;
+}
+
+/* Section heading styling */
+.sectionTitle {
+  font-size: 1.8rem;
+  color: #3c6e8f; /* Matching your muted blue color scheme */
+  margin: 25px 0 15px;
+  text-align: center;
+  border-top: 2px solid #5A9BD5; /* Light blue accent line */
+  padding-bottom: 10px;
+}
+
