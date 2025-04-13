@@ -63,7 +63,7 @@ nav.linker a.realLink {
     width: 90%; /* Wider buttons for easier tapping */
     text-align: center;
     padding: 8px 5px;
-    font-size: 14px;
+    font-size: 10px;
   }
   
   /* Adjust body padding to account for taller nav */
@@ -75,7 +75,7 @@ nav.linker a.realLink {
 /* Additional landscape optimization */
 @media (orientation: landscape) and (max-width: 768px) {
   nav.linker ul {
-    gap: 8px;
+    gap: 4px;
   }
   
   nav.linker a.realLink {
