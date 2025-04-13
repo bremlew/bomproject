@@ -75,7 +75,7 @@ nav.linker a.realLink {
 /* Additional landscape optimization */
 @media (orientation: landscape) and (max-width: 768px) {
   nav.linker ul {
-    gap: 4px;
+    gap: 1px;
   }
   
   nav.linker a.realLink {
